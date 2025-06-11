@@ -1,0 +1,49 @@
+.container-exp{
+    width: 70vw;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: var(--light);
+    margin: 3em auto;
+}
+.container-skill{
+    display: flex;
+    flex-flow: row wrap;
+    .skill-item{
+        display: inline-block;
+        padding: .5em;
+        background-color: var(--highlight);
+        border-radius: 1em;
+        margin: 1px;
+    }
+}
+
+.title {
+    font-size: 25px;
+
+}
+.org {
+    font-size: 15px;
+
+}
+.container-button{
+    margin: 2em auto;
+    text-align: center;
+    .button {
+        border-radius: 2em;
+        display: inline-block;
+        background-color: #ffeded;
+        padding: .5em 5em;
+        margin:.3em auto;
+    }
+}
+
+.container-section{
+    font-size: 23px;
+    width: 80vw;
+    margin: 1em auto;
+}
+
+.desc {
+    padding: .3em;
+    font-size: 1rem;
+}

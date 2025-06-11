@@ -1,1 +1,35 @@
-<p>resume works!</p>
+<div class="container-button">
+    <a href="https://drive.google.com/file/d/14IxzYjV9UP2Vdd9V-7BJnitMicbCxbG_/view?usp=drive_link" target="_blank"
+        class="button">PDF</a>
+</div>
+<div class="container-section">
+    <div>Work Experience</div>
+    <hr>
+</div>
+@for (item of experience; track item.id){
+<div class="container-exp">
+    <div class="title">{{item.title}}</div>
+    <div class="org">{{item.organization}}</div>
+    <ul>
+        @for(task of item.description;track $index){
+        <li class="desc">{{task}}</li>
+        }
+    </ul>
+    <div class="container-skill">
+        @for(skill of item.skills; track skill){
+        <div class="skill-item">{{skill}}</div>
+        }
+    </div>
+</div>}
+<div class="container-section">
+    <div>Education</div>
+    <hr>
+    <div class="container-exp">
+        <div class="title">Bachelor Of Engineering, <em>Computer Science & Engineering</em></div>
+        <div class="org">B.N.M Institute of Technology ( VTU ) </div>
+        <ul>
+            <li class="desc">CGPA: 8.2/10</li>
+            <li class="desc">Graduated: 2023</li>
+        </ul>
+    </div>
+</div>
