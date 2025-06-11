@@ -1,0 +1,20 @@
+a {
+    width: 10vw;
+    padding: 2rem;
+}
+
+.active {
+    background-color: var(--medium);
+}
+
+div {
+    :last-child {
+        border-radius: 0px 30px 30px 0px;
+    }
+    :first-child{
+        border-radius: 30px 0px 0px 30px;
+    }
+    a + a {
+        border-left: 2px solid var(--highlight);
+    }
+}

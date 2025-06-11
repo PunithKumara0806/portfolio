@@ -4,3 +4,20 @@
     --light : #EDEDED;
     --highlight: #FAFAFA;
 }
+
+.light {
+    background-color: var(--light);
+}
+.dark {
+    background-color: var(--dark);
+}
+.medium {
+    background-color: var(--medium);
+}
+.highlight {
+    background-color: var(--highlight);
+}
+
+a{
+    text-decoration: none;
+}
