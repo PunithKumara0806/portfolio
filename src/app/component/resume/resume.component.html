@@ -1,15 +1,24 @@
 <div class="container-button">
-    <a href="https://drive.google.com/file/d/14IxzYjV9UP2Vdd9V-7BJnitMicbCxbG_/view?usp=drive_link" target="_blank"
+    <a href="https://drive.google.com/file/d/1m3UBkAtN4kRxVz1PGw48r-CybkXCv4XC/view?usp=sharing" target="_blank"
         class="button">PDF</a>
 </div>
 <div class="container-section">
     <div>Work Experience</div>
     <hr>
 </div>
+<!-- TODO: add experience calculation for month too -->
 @for (item of experience; track item.id){
 <div class="container-exp">
     <div class="title">{{item.title}}</div>
     <div class="org">{{item.organization}}</div>
+    <div class="date">{{item.startYear}} @if(item.endYear > 0){
+        <span>-{{item.endYear}} ( {{item.endYear - item.startYear}} yrs )
+        </span>
+        }@else {
+        <span> - Current ( {{currentYear - item.startYear}} yrs )</span>
+        }
+    </div>
+
     <ul>
         @for(task of item.description;track $index){
         <li class="desc">{{task}}</li>
