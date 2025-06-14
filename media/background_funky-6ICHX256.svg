@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1890.91 896.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8bbff;
+      }
+
+      .cls-2 {
+        fill: #b6fbff;
+      }
+
+      .cls-3 {
+        fill: #e89fff;
+      }
+
+      .cls-4 {
+        fill: #ffdadb;
+      }
+
+      .cls-5 {
+        fill: #ff7bac;
+      }
+
+      .cls-6 {
+        fill: #ff7571;
+      }
+
+      .cls-7 {
+        fill: #f7931e;
+      }
+
+      .cls-8 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g class="cls-8">
+    <circle class="cls-7" cx="135.06" cy="431.17" r="135.06"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-6" cx="1755.84" cy="525.97" r="135.06"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-3" cx="1402.6" cy="324.68" r="38.96"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-5" cx="192.86" cy="57.79" r="57.79"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-2" cx="175" cy="733.44" r="27.6"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-4" cx="1793.51" cy="85.39" r="27.6"/>
+  </g>
+  <g class="cls-8">
+    <circle class="cls-1" cx="1765.75" cy="878.73" r="18.02"/>
+  </g>
+</svg>
