@@ -1,8 +1,23 @@
 :root {
-    --dark : #d9d9d9;
-    --medium : #E0E0E0; 
-    --light : #EDEDED;
-    --highlight: #FAFAFA;
+    // --dark : #d9d9d9;
+    // --medium : #E0E0E0; 
+    // --light : #EDEDED;
+    // --highlight: #FAFAFA;
+
+    // --dark : #b7e5eb;
+    // --medium : #FFC2C7; 
+    // --light : #FBE5C8;
+    // --highlight: #FAFAFA;
+
+    // --dark : #167D7F;
+    // --medium : #29A0B1; 
+    // --light : #98D7C2;
+    // --highlight: #DDFFE7;
+}
+.theme {
+    float: right;
+    padding: 1em;
+    background-color: var(--highlight);
 }
 
 .light {
@@ -18,6 +33,16 @@
     background-color: var(--highlight);
 }
 
+body {
+    background-image: url("../public/background_funky.svg");
+    background-attachment: fixed;
+}
+
 a{
     text-decoration: none;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030
 }
