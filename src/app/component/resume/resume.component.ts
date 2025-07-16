@@ -26,9 +26,11 @@ export class ResumeComponent {
       endYear: -1,
       organization: 'Societe Generale',
       description: [
-        'Worked in Group level IAM system catering to 10k+ users',
-        'Worked in Automating tool saving 100 hours+ total',
-        'Received Newbie Award for proactive contribution in project',
+        'Addressed regular production bugs and user issue for UI and system workflows for internal IAM tool.',
+        'Worked on documentation of IAM tool features that were added, and addressed user concerns on feature improvements',
+        'Created automation scripts to reduce manual actions for support members, saving 2+ manhours peraction.',
+        'Worked on Group level migration project, involving 500+ teams across all business lines. Playedsignificant roles in the project via providing automation scripts to validate data quality.',
+        'Awarded ”Newbie Award” for proactive contribution for automation',
       ],
       skills: [
         'Java',
@@ -38,6 +40,7 @@ export class ResumeComponent {
         'Event Driven Architecture',
         'Domain Driven Design',
         'Angular',
+        'AWK',
         'SQL',
         'Azure',
         'Agile',
